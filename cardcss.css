@@ -6,7 +6,7 @@
 
 }
 body{
-    background-color: rgb(157, 199, 224);   
+    background-color: rgb(25, 72, 97);   
 }
 .card{
     width: 640px;
@@ -59,28 +59,47 @@ body{
     height: 100%;
     width: 100%;
     position: absolute;
+    align-items: center;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transform: rotatex(0deg);
 
 }
 .front{
-    background-color: #ffffff;
+    background-color: #000046;
 }
 .back{
     transform: rotateY(180deg);
     background: linear-gradient(to left, #e0e0e0, #ffffff);
 
 }
-.outside p{
+/*.fronttext{
+    height: 400px;
+    line-height: 300px;
+    text-align: center;
+    border: 2px solid #020297;
+} */
+.fronttext{
+    line-height: 300px;
     font-size: 23px;
     text-transform: uppercase;
     margin-top: 30px;
     text-align: center;
     letter-spacing: 6px;
-    color: #000046;
+    color: #f8f8f8;
 }
-.inside h1{
-    font-size: 120px;
-    line-height: 120px;
+.secondtext{
+    line-height: 1px;
+    font-size: 23px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: 6px;
+    color: #f8f8f8;
+}
+.inside h5{
+    line-height: 3;
+    justify-content: space-around;
+    align-items: center;
+    left: 50%;
 }
